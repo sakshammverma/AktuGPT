@@ -110,7 +110,7 @@ print(json.dumps(dataset[0], ensure_ascii=False, indent=2))
 from groq import Groq
 import json, time
 
-client = Groq(api_key="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")
+client = Groq(api_key="gsk_gRvPTjmpl0pa")
 
 def generate_with_retry(prompt, retries=3):
     for attempt in range(retries):
