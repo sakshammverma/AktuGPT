@@ -13,7 +13,7 @@ import google.generativeai as genai
 import json
 import time
 
-genai.configure(api_key="AIzaSyDj06q-AWcURyjBZS8GOlO4Xux5v7yV4s8")
+genai.configure(api_key="YOUR_KEY")
 model = genai.GenerativeModel("gemini-2.5-flash")  # Free tier model
 
 # QUESTIONS LIST
